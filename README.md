@@ -18,6 +18,8 @@ El proyecto depende de los siguientes paquetes esenciales:
 * `Microsoft.EntityFrameworkCore.Tools`
 * `Microsoft.EntityFrameworkCore.Design`
 * `Swashbuckle.AspNetCore` (Swagger)
+
+
 ## 🛣️ Funcionalidades del API
 
 El sistema permite la gestión completa del ciclo de vida de una póliza, desde la consulta de catálogos hasta la emisión final.
@@ -42,4 +44,13 @@ Esta funcionalidad se encarga de formalizar el seguro bajo las siguientes condic
 
 ---
 > 📂 **Nota:** En la carpeta **SQL** se encuentra el script de la base de datos y un script con registros iniciales.
+
+## Migracion de la base de datos (code first)
+Se debe de modificar el nombre del servidor en la cadena de conexion
+```bash
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=TU_SERVIDOR_AQUÍ;Database=SegurosPruebaDB;Trusted_Connection=True;TrustServerCertificate=True;"
+  }
+}
 
