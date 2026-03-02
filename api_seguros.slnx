@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="api_seguros/api_seguros.csproj" />
+  <Project Path="Repository/Repositorio.csproj" />
+  <Project Path="Service/Servicio.csproj" />
+</Solution>
